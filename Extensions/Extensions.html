@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+/*         border-collapse: collapse; */
+    }
+     
+    th,
+    td {
+        padding: 10px;
+    }
+    </style>
+  
+</head>
+
+<body>
+  Hello world
+  <script src="script.js"></script>
+
+
+<h2>Example of Radio Button Forms</h2>
+  
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+
+  
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+
+  
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+
+<h2>HTML Button Forms (with disable feature)</h2>
+<button type="button" id="mybutton"
+        onclick="alert('Button was clicked!');"
+        style="border:1px solid teal;">My Button</button>
+
+<br />
+<button type="button" onclick="toggle();">Toggle disable</button>
+
+<script>
+  let toggle = () => {
+    let element = document.getElementById('mybutton');
+    let disabled = element.getAttribute("disabled");
+
+    if (disabled) {
+        element.removeAttribute("disabled");
+    } else {
+        element.setAttribute("disabled", "disabled");
+    }
+  }
+</script>
+
+
+<h2>HTML Tables</h2>
+
+ <table style="width:100%">
+        <tr>
+            <th>Education Provider</th>
+            <th>Year Founded</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>GeeksForGeeks</td>
+            <td>2009</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Stack Overflow</td>
+            <td>2008</td>
+            <td>11/10</td>
+        </tr>
+        <tr>
+            <td>Ai Camp</td>
+            <td>2019</td>
+            <td>1000000/10</td>
+        </tr>
+    </table>
+  
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
+
+  
+</body>
+
+</html>
