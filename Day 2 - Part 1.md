@@ -28,7 +28,7 @@ To kickstart the stylization of our project, we are going to use [startbootstrap
 > **!!!! We recommend that everyone on your team chooses the same templates to promote simplicity when you merge your webpages.**
 2. Click on the template of your choice, confirm it is a good match for your page and click on the "Free Download" button once you are on your template page! A zip should start downloading.
 3. Once your zip downloads, simply unzip it and begin copying the files to their corresponding folders. **DO NOT copy `index.html` yet. ![image](assets/startbootstrap.png)
-4. Rename the `index.html` file you in your currenty folder to something like `day1_index.html`. Then, upload the bootstrap `index.html` to the project! Your files and folders should look something like this:
+4. Rename the `index.html` file you are in your currenty folder to something like `day1_index.html`. Then, upload the bootstrap `index.html` to the project! Your files and folders should look something like this:
 ![image](assets/image_2.png)
 5. Now, you can start to mix and match! You should take your content from your `day1_index.html` file (that you created yesterday), and populating the new `index.html` that is bootstrap designed. You can make this project your own -- remove and add features as necessary.
 
