@@ -1,5 +1,3 @@
-----
-
 # Portfolio Site Day 2 - Part 2
 ###### Authors: R. Tang, M. Cutts
 Welcome back from Lunch Break! Before lunch you should have used a bootstrap template to beautify your site. From here, we are going to beautify your site and deploy it to the web using github pages. 
