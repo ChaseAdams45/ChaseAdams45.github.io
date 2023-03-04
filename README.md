@@ -1,2 +1,4 @@
 # Chase Adams Portfolio page
-Portfolio page for WebDev training -- still need to complete
+Version 1 of my portfolio website. Made with Bootstrap 
+
+TODO: learn React and make version 2 with React
